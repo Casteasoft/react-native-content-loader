@@ -1,5 +1,5 @@
 {
-  "name": "@cipto/react-native-content-loader",
+  "name": "@casteasoft/react-native-content-loader",
   "version": "0.0.0",
   "description": "Customizable react native content loader for React-Native apps",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cipto-hd/react-native-content-loader.git"
+    "url": "git+https://github.com/casteasoft/react-native-content-loader.git"
   },
   "keywords": [
     "loader",
@@ -25,15 +25,12 @@
     "android"
   ],
   "bugs": {
-    "url": "https://github.com/cipto-hd/react-native-content-loader/issues"
+    "url": "https://github.com/casteasoft/react-native-content-loader/issues"
   },
-  "homepage": "https://github.com/cipto-hd/react-native-content-loader#readme",
+  "homepage": "https://github.com/casteasoft/react-native-content-loader#readme",
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {
     "react-native": ">= 0.59"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
