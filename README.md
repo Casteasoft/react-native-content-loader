@@ -1,3 +1,7 @@
+<a href="https://www.npmjs.com/package/@casteasoft/react-native-content-loader">
+  <img alt="npm version" src="https://img.shields.io/npm/v/@casteasoft/react-native-content-loader"/>
+</a>
+
 # Content Loader aka Content Placeholder for React Native
 
 **Customizable react native content loader for React-Native apps**.
