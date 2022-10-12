@@ -21,13 +21,13 @@ Buy me a coffe at:
 **Step 1.**
 
 ```
-npm install @cipto/react-native-content-loader --save
+npm install @casteasoft/react-native-content-loader --save
 ```
 
 or
 
 ```
-yarn add @cipto/react-native-content-loader
+yarn add @casteasoft/react-native-content-loader
 ```
 
 **Step 2.**
@@ -56,12 +56,12 @@ const ProfileImage = withViewLoader(View)
 ```js
 
 import { View, Text, TouchableOpacity, Image } from "react-native";
-import { withViewLoader } from "@cipto/react-native-content-loader";
+import { withViewLoader } from "@casteasoft/react-native-content-loader";
 import { styled } from "nativewind";
 
 
  /* =============================
-  *  Content Loader Examples @cipto/react-native-content-loader
+  *  Content Loader Examples @casteasoft/react-native-content-loader
   #  , styling using Nativewind
   * ============================ */
 
@@ -193,7 +193,7 @@ If you use a third party library like Nativewind, the tailwind class will be tra
 
 ## Changelog
 
-Please see the [releases](https://github.com/cipto-hd/react-native-content-loader/releases) tab for the changelog information.
+Please see the [releases](https://github.com/casteasoft/react-native-content-loader/releases) tab for the changelog information.
 
 ## License
 
