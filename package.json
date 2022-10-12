@@ -1,0 +1,39 @@
+{
+  "name": "@cipto/react-native-content-loader",
+  "version": "0.0.0",
+  "description": "Customizable react native content loader for React-Native apps",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "scripts": {
+    "release": "npx release-it"
+  },
+  "author": "Cipto Hadi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipto-hd/react-native-content-loader.git"
+  },
+  "keywords": [
+    "loader",
+    "content-loader",
+    "placeholder",
+    "content-placeholder",
+    "react-component",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "bugs": {
+    "url": "https://github.com/cipto-hd/react-native-content-loader/issues"
+  },
+  "homepage": "https://github.com/cipto-hd/react-native-content-loader#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "react-native": ">= 0.59"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
