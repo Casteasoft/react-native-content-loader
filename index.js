@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Animated, View } from "react-native";
+import { Animated, Platform, View } from "react-native";
 
 export const withViewLoader =
   (TargetComponent) =>
