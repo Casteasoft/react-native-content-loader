@@ -43,13 +43,13 @@ And now you are ready to use it in your code. See example below.
 ```js
 const ProfileImage = withViewLoader(View)
 
-<ProfileImage style={width: 120, height: 120} isLoading={isLoading}>
-  <Image resizeMode="cover" source={{uri: "http://localhost:3000/avatars/cipto.jpg"}} style={{widh:"100%" height:"100%"}} />
+<ProfileImage style={{width: 120, height: 120}} isLoading={isLoading}>
+  <Image resizeMode="cover" source={{uri: "http://localhost:3000/avatars/cipto.jpg"}} style={{width:"100%", height:"100%"}} />
 </ProfileImage>
 
 // or using explicit conditional statement
 {
-  isLoading ? <ProfileImage style={width: 120, height: 120} isLoading={isLoading} /> : <View style={width: 120, height: 120} isLoading={isLoading}><Image resizeMode="cover" source={{uri: "http://localhost:3000/avatars/cipto.jpg"}} style={{widh:"100%" height:"100%"}} />
+  isLoading ? <ProfileImage style={{width: 120, height: 120}} isLoading={isLoading} /> : <View style={{width: 120, height: 120}} isLoading={isLoading}><Image resizeMode="cover" source={{uri: "http://localhost:3000/avatars/cipto.jpg"}} style={{width:"100%", height:"100%"}} />
 </View>
 }
 
