@@ -1,6 +1,6 @@
 {
   "name": "@casteasoft/react-native-content-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Customizable react native content loader for React-Native apps",
   "main": "index.js",
   "types": "index.d.ts",
