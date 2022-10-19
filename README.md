@@ -10,7 +10,7 @@ No need for external dependencies, it only use `View` component from `react-nati
 
 ## Preview
 
-![Content Loader Preview](https://raw.githubusercontent.com/cipto-hd/react-native-content-loader/master/assets/cipto-content-loader.gif)
+![Content Loader Preview](https://raw.githubusercontent.com/cipto-hd/github-assets/main/assets/cipto-content-loader.gif)
 
 ## Support
 
