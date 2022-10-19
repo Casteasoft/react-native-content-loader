@@ -55,6 +55,10 @@ const ProfileImage = withViewLoader(View)
 
 ```
 
+## Live advanced example
+
+[Play around on codesanbox](https://codesandbox.io/s/react-native-content-loader-tclrs2)
+
 ## More advanced example
 
 ```js
