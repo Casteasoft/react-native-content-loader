@@ -59,7 +59,7 @@ const ProfileImage = withViewLoader(View)
 
 [Play around on codesanbox](https://codesandbox.io/s/react-native-content-loader-tclrs2)
 
-## More advanced example
+## Advanced example using Nativewind
 
 ```js
 
@@ -149,6 +149,8 @@ export const ContentLoader = () => {
  *  Styled Components using Nativewind
  *  =============================
  */
+const ViewWithLoader = withViewLoader(View);
+
 const ToggleLoadingBtn = styled(
   TouchableOpacity,
   `items-center self-center justify-center px-4 py-2 mx-4 my-2 bg-gray-900 rounded-lg w-36`
@@ -162,12 +164,12 @@ const ProfileHeaderContainer = styled(
   `relative flex flex-col items-center mx-auto w-80`
 );
 
-const ProfileHeaderImageContainer = styled(withViewLoader(View), `w-full h-32`);
+const ProfileHeaderImageContainer = styled(ViewWithLoader, `w-full h-32`);
 
 const ProfileHeaderImage = styled(Image, `w-full h-full`);
 
 const ProfileImageContainer = styled(
-  withViewLoader(View),
+  ViewWithLoader,
   `absolute z-20 w-16 h-16 border-2 border-gray-100 rounded-full top-24`
 );
 
@@ -177,13 +179,13 @@ const ProfileImageBackground = styled(
   View,
   `absolute w-16 h-16 border-2 border-gray-100 rounded-full bg-gray-50 top-24`
 );
-const BioParagraph = withViewLoader(View);
+const BioParagraph = ViewWithLoader;
 
 ```
 
 ## Available Properties
 
-If you use a third party library like Nativewind, the tailwind class will be transformed into an array style object, therefore there is not className property, for example:
+If you use a third party library like Nativewind, the tailwind class will be transformed into an array of style object, therefore there is no className property, for example:
 
 `mx-auto mt-4 w-80` will be transformed into `[{marginLeft: "auto", marginRight: "auto"}, {marginTop: 16}, {width: 320}]`
 
