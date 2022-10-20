@@ -8,7 +8,7 @@
     "dts": "cp src/index.d.ts dist/.",
     "dev": "yarn dts && npx babel src/index.js --watch --out-file dist/index.js --source-maps inline",
     "prod": "yarn dts && npx babel src/index.js --out-file dist/index.js --source-maps inline",
-    "release": "npx release-it"
+    "release": "yarn prod && npx release-it"
   },
   "author": "Cipto Hadi",
   "license": "MIT",
