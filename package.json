@@ -2,10 +2,12 @@
   "name": "@casteasoft/react-native-content-loader",
   "version": "0.0.7",
   "description": "Customizable react native content loader for React-Native apps",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "dts": "cp src/index.d.ts dist/.",
+    "dev": "yarn dts && npx babel src/index.js --watch --out-file dist/index.js --source-maps inline",
+    "prod": "yarn dts && npx babel src/index.js --out-file dist/index.js --source-maps inline",
     "release": "npx release-it"
   },
   "author": "Cipto Hadi",
@@ -29,7 +31,13 @@
   },
   "homepage": "https://github.com/casteasoft/react-native-content-loader#readme",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "7.19.3",
+    "@babel/plugin-transform-react-jsx-source": "7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "babel-preset-minify": "^0.5.2"
+  },
   "peerDependencies": {
     "react-native": ">= 0.59"
   }
