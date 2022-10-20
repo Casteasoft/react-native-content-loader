@@ -57,7 +57,8 @@ const ProfileImage = withViewLoader(View)
 
 ## Live advanced example
 
-[Play around on codesanbox](https://codesandbox.io/s/react-native-content-loader-tclrs2)
+[Fiddle it around on codesanbox](https://codesandbox.io/s/react-native-content-loader-tclrs2)
+. You prefer expo snack? I've got you, here is yummy [expo snack](https://snack.expo.dev/@ciptohadi/e8a49d)
 
 ## Advanced example using Nativewind
 
